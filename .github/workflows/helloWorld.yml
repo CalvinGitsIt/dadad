@@ -18,3 +18,11 @@ jobs:
       - name: Hello
         run: echo "Hello world"
         shell: bash
+        
+  bye:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Bye
+        run: echo "bye world"
+        shell: bash
