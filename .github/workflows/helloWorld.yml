@@ -23,6 +23,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Hello
+      - name: Bye
         run: echo "bye world"
         shell: bash
